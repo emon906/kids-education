@@ -12,6 +12,10 @@ header{
 section{
     max-width: 1160px;
     margin: auto;
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 /* menu start */
 .menu{
@@ -20,6 +24,7 @@ section{
     justify-content: space-between;
     align-items: center;
     gap: 186px;
+    margin-bottom: 20px;
 }
 .menu-container{
     display: flex;
@@ -87,6 +92,56 @@ section{
    font-weight: 600;
 }
 /* menu end */
+/* banner start */
+.banner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   margin-bottom: 60px;
+}
+.banner-content{
+    
+}
+.banner-content h1{
+    color: #111;
+    font-size: 56px;
+    font-weight: 700;
+
+}
+.power{
+    color: #F0AA00;
+    font-size: 56px;
+    font-weight: 700;
+}
+.toward{
+    color: #01ACFD;
+    font-size: 56px;
+    font-weight: 700;
+}
+.banner-content p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #111;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-content a{
+    padding: 10px 47px;
+    background: #111;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-img{
+
+}
+.banner-img img{
+
+}
+/* banner end */
 /* standard start */
 .standard{
     margin-top: 60px;
@@ -208,5 +263,78 @@ section{
     padding: 19px 22px;
     background: #F0AA00;
 }
- 
 /* standard end */
+/* footer start */
+footer{
+    background: #01ACFD;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    padding: 123px;
+}
+.education{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 32px;
+}
+.education-img{
+   
+}
+.education-img img{
+   
+}
+.education-content{
+   
+}
+.education-content h2{
+   color: #FFF;
+   font-size: 42px;
+   font-weight: 700;
+
+}
+.education-p p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+.school{
+
+}
+.school-h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.school-h4 h4{
+
+}
+.school-about{
+
+}
+.school-about h5{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.keep-it{
+
+}
+.keep{
+
+}
+.keep h4{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+}
+.keep-img{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.keep-img img-1{
+
+}
+/* footer end */
