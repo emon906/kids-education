@@ -93,6 +93,12 @@ section{
 }
 /* menu end */
 /* banner start */
+.marquee{
+    color: white;
+    background: red;
+    font-size: 20px;
+    font-weight: 400;
+}
 .banner{
    display: flex;
    justify-content: center;
@@ -264,6 +270,21 @@ section{
     background: #F0AA00;
 }
 /* standard end */
+/* stories start */
+.Our-Stories{
+
+}
+.box-img{
+    margin-bottom: 20px ;
+}
+.box-img img{
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+.box-img a{
+    
+}
+/* stories end */
 /* footer start */
 footer{
     background: #01ACFD;
