@@ -275,6 +275,7 @@ section{
     display: flex;
     justify-content: center;
     background:  black;
+    gap: 20px;
    
 }
 .box-img{
@@ -283,10 +284,10 @@ section{
 .box-img img{
     margin-bottom: -15px;
 }
-.box-1{
+.stories-box1{
    
 }
-.box-1 a{
+.stories-box1 a{
     font-family: "Raleway", sans-serif;
     background: #3CD8E8;
     padding: 14.38px 18.876px 15.339px 19.174px;
@@ -297,33 +298,30 @@ section{
     font-weight: 500;
     
 }
-.box-1 h5{
+.stories-box1 h5{
     margin-top: 36px;
     color: #000;
     font-size: 24px;
     font-weight: 700;
 }
-.box-1 p{
+.stories-box1 p{
     margin-top: 47px;
     font-size: 15px;
     font-weight: 500;
     color: #666;
 }
-.box-2{
+.stories-box2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     
 }
-.box1{
-    
-}
-.box1 img{
+.stories-box2 img{
 
 }
-.box1 a{
+.stories-box2 a{
 
 }
-.box1 p{
+.stories-box2 p{
 
 }
 /* stories end */
