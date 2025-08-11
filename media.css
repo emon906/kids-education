@@ -121,6 +121,57 @@
     display: none;
 }
 /* secton end */
+/* our stories start */
+.stories{
+   font-size: 25px;
+   margin-bottom: 50px;
+}
+.main-stories{
+   
+}
+.Our-Stories{
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+}   
+.stories-box1{
+    display: none;
+}
+.stories-box2{
+    gap: 15px;
+}
+.box1{
+    width: 100%;
+}
+.box1 a{
+    padding: 5.708px 11.24px 6.279px 11.417px;
+    margin-left: 15px;
+}
+.box2 a{
+    padding: 5.708px 11.24px 6.279px 11.417px;
+    margin-left: 15px;
+}
+.box-img{
+    width: 100%;
+}
+.box-img img{
+   width: 100%;
+}
+.stories-box2-content{
+    padding: 20px 20px;
+} 
+.box1 p{
+    margin-top: 15px;
+}
+
+/* our stories end */
+/* footer start */
+footer{
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px;
+}
+/* footer end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -187,6 +238,7 @@
 }
 /* banner end */
 /* secton start */
+
 .standard{
     margin-top: 50px;
     margin-bottom: 70px;
@@ -244,6 +296,56 @@
     display: none;
 }
 /* secton end */
+/* our stories start */
+.stories{
+   font-size: 25px;
+   margin-bottom: 50px;
+}
+.Our-Stories{
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+}   
+.stories-box1{
+    display: none;
+}
+.stories-box2{
+    gap: 15px;
+}
+.box1{
+    width: 100%;
+}
+.box2{
+    width: 100%;
+}
+.box1 a{
+    padding:5.708px 11.24px 6.279px 11.417px ;
+    margin-left: 15px;
+}
+.box2 a{
+    margin-left: 15px;
+    padding:5.708px 11.24px 6.279px 11.417px ;
+}
+.box-img{
+    width: 100%;
+}
+.box-img img{
+    width: 100%;
+}
+.stories-box2-content{
+    padding: 25px 25px;
+} 
+.view{
+    display: none;
+}
+/* our stories end */
+/* footer start */
+footer{
+    flex-direction: column;
+    gap: 80px;
+    padding: 90px;
+}
+/* footer end */
 }
 
  /* Medium devices (tablets, 768px and up) */ 
@@ -347,6 +449,37 @@
     display: none;
 }
 /* secton end */
+/* our stories start */
+.stories{
+   font-size: 35px;
+   margin-bottom: 50px;
+}
+.Our-Stories{
+
+}
+.stories-box1{
+    display: none;
+}
+.stories-box2{
+    gap: 20px;
+}
+.box-img{
+    width: 100%;
+}
+.box-img img{
+   
+}
+.stories-box2-content{
+    padding: 25px 25px;
+} 
+/* our stories end */
+/* footer start */
+footer{
+    flex-direction: column;
+    gap: 70px;
+    padding: 100px;
+}
+/* footer end */
 }
 
 /* Large devices (desktops, 992px and up) */

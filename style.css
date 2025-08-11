@@ -21,7 +21,8 @@ main{
     background-image: url(./img/bg.png),linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
+   
 }
 /* menu start */
 .menu{
@@ -288,6 +289,7 @@ main{
     margin-bottom: 80px;
     font-size: 46px;
     font-weight: 700;
+ 
 }
 .Our-Stories{
     display: flex;
@@ -296,9 +298,11 @@ main{
     margin-left: 200px;
     margin-right: 200px;
    
+   
 }
 .kids-stories{
     display: flex;
+    
 }
 .box-img{
     
@@ -375,7 +379,7 @@ main{
 }
 .box2{
     background:  #FFF ;
-    
+    border-radius: 10px;
 }
 .box2 img{
 
@@ -398,11 +402,11 @@ main{
     font-weight: 700;
 }
 .view{
-    margin-top: 80px;
+   
     text-align: center; 
-     padding: 80px 80px;
+    padding: 80px;
 }
-.view-all a{
+.view a{
     text-decoration: none;
     background: #111;
     color: #FFF;
@@ -421,7 +425,7 @@ main{
 footer{
     background: #01ACFD;
     display: flex;
-    justify-content: center;
+   
     gap: 170px;
     padding: 123px;
     
