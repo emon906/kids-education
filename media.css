@@ -57,16 +57,74 @@
     font-weight: 700;
 }
 .banner-img{
-    width: 50%;
+    width: 80%;
 }
 .banner-img img{
    width: 100%;
 }
 /* banner end */
+/* secton start */
+.standard{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.standard h2{
+    font-size: 32px;
+}
+.standard-box{
+     flex-direction: column; 
+    width: 500px;
+    margin: auto;
+    gap: 17px;
+}
+.box-1{
+    padding: 25px 10px;
+}
+.box-1 h4{
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.box-1 p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.box-1 a{
+    font-size: 18px;
+}
+.box-2 h4{
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.box-2 p{
+     font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.box-2 a{
+    font-size: 18px;
+}
+.box-3 h4{
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.box-3 p{
+     font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.box-3 a{
+    font-size: 18px;
+}
+.angle{
+    display: none;
+}
+/* secton end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    /* menu start */
 .menu{
    justify-content: space-evenly;
    gap: 210px;
@@ -87,6 +145,7 @@
 .bar img{
    
 }
+/* menu end */
 /* banner start */
 .banner{
     flex-direction: column-reverse;
@@ -126,6 +185,55 @@
    width: 100%;
 }
 /* banner end */
+/* secton start */
+.standard{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.standard h2{
+    font-size: 35px;
+}
+.standard-box{
+     flex-direction: column; 
+    width: 500px;
+    margin: auto;
+    gap: 17px;
+}
+.box-1{
+    padding: 25px 10px;
+}
+.box-1 h4{
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.box-1 p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.box-2 h4{
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.box-2 p{
+     font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.box-3 h4{
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.box-3 p{
+     font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.angle{
+    display: none;
+}
+/* secton end */
 }
 
  /* Medium devices (tablets, 768px and up) */ 
@@ -197,7 +305,38 @@
    width: 100%;
 }
 /* banner end */
- 
+/* secton start */
+.standard{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.standard h2{
+    font-size: 40px;
+}
+.standard-box{
+    width: 700px;
+    margin: auto;
+    gap: 17px;
+}
+.box-1 p{
+  
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.box-2 p{
+  
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.box-3 p{
+  
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.angle{
+    display: none;
+}
+/* secton end */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -218,6 +357,7 @@
 .bar img{
     display: none;
 }
-
-
+.menu{
+    border-bottom: none;
+}
 }

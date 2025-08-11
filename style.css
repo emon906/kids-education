@@ -160,7 +160,7 @@ main{
 
 }
 /* banner end */
-/* standard start */
+/* section start */
 .standard{
     margin-top: 60px;
     margin-bottom: 80px;
@@ -173,7 +173,7 @@ main{
 }
 .standard-box{
     display: flex;
-    justify-content: center;
+    
     gap: 28px;
 
 }
@@ -281,7 +281,7 @@ main{
     padding: 19px 22px;
     background: #F0AA00;
 }
-/* standard end */
+/* section end */
 /* stories start */
 .stories{
     text-align: center;
