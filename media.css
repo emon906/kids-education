@@ -125,6 +125,7 @@
 .stories{
    font-size: 25px;
    margin-bottom: 50px;
+   margin-top: 40px;
 }
 .main-stories{
    
@@ -300,6 +301,7 @@ footer{
 .stories{
    font-size: 25px;
    margin-bottom: 50px;
+   margin-top: 40px;
 }
 .Our-Stories{
     flex-wrap: wrap;
@@ -336,7 +338,7 @@ footer{
     padding: 25px 25px;
 } 
 .view{
-    display: none;
+    
 }
 /* our stories end */
 /* footer start */
@@ -453,6 +455,7 @@ footer{
 .stories{
    font-size: 35px;
    margin-bottom: 50px;
+   margin-top: 40px;
 }
 .Our-Stories{
 
