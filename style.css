@@ -425,9 +425,8 @@ main{
 footer{
     background: #01ACFD;
     display: flex;
-   
     gap: 170px;
-    padding: 123px;
+    padding: 150px 200px;
     
 }
 .education{
