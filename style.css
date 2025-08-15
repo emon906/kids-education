@@ -100,6 +100,10 @@ main{
    color: #fff;
    font-size: 20px;
    font-weight: 600;
+   transition: 0.3s;
+}
+.button a:hover{
+    background: rgb(244, 81, 22);
 }
 .bar{
    
@@ -154,6 +158,10 @@ main{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    transition: 0.3s;
+}
+.banner-content a:hover{
+    background: blue;
 }
 .banner-img{
 
@@ -414,12 +422,12 @@ main{
     padding: 10px 61px;
     border-radius: 12px;
     font-size: 20px;
-    font-weight: 700;
-   
-   
-    
+    font-weight: 700; 
+    transition: 0.3s;   
 }
-
+.view a:hover{
+    background: blue;
+}
 
 /* stories end */
 /* footer start */
