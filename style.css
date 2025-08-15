@@ -90,12 +90,13 @@ main{
 }
 
 .button{
+  
+}
+.button a{
    padding: 10px 40px;
    border-radius: 12px;
    background: #FEA301;
-}
-.button a{
-    text-decoration: none;
+   text-decoration: none;
    color: #fff;
    font-size: 20px;
    font-weight: 600;
